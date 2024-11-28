@@ -7,7 +7,7 @@ class Auth {
     await Future.delayed(const Duration(seconds: 2));
 
     // Mock authentication logic
-    if (username == 'user' && password == 'password') {
+    if (username == 'a' && password == 'a') {
       return true;  // Successful login
     } else {
       return false;  // Login failed
